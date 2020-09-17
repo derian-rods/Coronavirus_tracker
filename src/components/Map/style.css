@@ -1,0 +1,284 @@
+.app__map{
+    margin: auto;
+    width: 53em;
+}
+.card__map{
+    border-top: 5px solid#ff9710;
+    border-radius: 10px;
+    background: #FAFAFB;
+    height: 28em;
+    box-shadow: 0 10px 10px #00000086;
+    padding: 2em;
+    width: 49em;
+    margin-right: 2em;
+    overflow: hidden;
+}
+
+svg{
+    margin-left: 5em;
+    width: 78%;
+}
+table{
+    color: #5f6368;
+    letter-spacing: .025em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    line-height: 1rem;
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+tr{
+    height: 12px;
+}
+.td__1{
+    background: #ffdfd8;
+}
+.td__2{
+    background: #fdc3bb;
+}
+.td__3{
+    background: #f8a091;
+}
+.td__4{
+    background: #FF6E54;
+}
+.td__5{
+    background: #cc1f00;
+}
+
+/* @media screen and (max-width: 1024px){
+    .app__map{
+        margin: auto;
+        width: 10em;
+        order: 3;
+    }
+    .card__map{
+        margin-top: 1em;
+        margin-left: -13em;
+        border-radius: 10px;
+        background: #FAFAFB;
+        width: 33em;
+        height: 22em;
+        box-shadow: 0 10px 10px #00000086;
+        padding: 2em;
+    }
+    
+    svg{
+        margin-left: 0;
+        width:100%;
+    }
+    table{
+        margin-top: 1em;
+        font-size: .55rem;
+    }
+} */
+
+/* 1024 */
+@media screen and (max-width: 1024px){
+    .app__map{
+        margin: auto;
+        width: 10em;
+        order: 3;
+    }
+    .card__map{
+        margin-top: 1em;
+        margin-left: -19em;
+        border-radius: 10px;
+        background: #FAFAFB;
+        width: 40em;
+        height: 29em;
+        box-shadow: 0 10px 10px #00000086;
+        padding: 2em;
+    }
+    
+    svg{
+        margin-left: 0;
+        width:100%;
+    }
+    table{
+        margin-top: 1em;
+        font-size: .55rem;
+    }
+}
+
+/* 768 */
+@media screen and (max-width: 768px){
+    .app__map{
+        margin: auto;
+        width: 10em;
+        order: 3;
+    }
+    .card__map{
+        margin-top: 1em;
+        margin-left: -19em;
+        border-radius: 10px;
+        background: #FAFAFB;
+        width: 40em;
+        height: 29em;
+        box-shadow: 0 10px 10px #00000086;
+        padding: 2em;
+    }
+    
+    svg{
+        margin-left: 0;
+        width:100%;
+    }
+    table{
+        margin-top: 1em;
+        font-size: .55rem;
+    }
+}
+
+
+
+
+
+/* 414 */
+@media screen and (max-width: 414px){
+    .app__map{
+        margin: auto;
+        width: 10em;
+        order: 3;
+    }
+    .card__map{
+        margin-top: 1em;
+        margin-left: -7.8em;
+        border-radius: 10px;
+        background: #FAFAFB;
+        width: 17em;
+        height: 20em;
+        box-shadow: 0 10px 10px #00000086;
+        padding: 2em;
+    }
+    
+    svg{
+        margin-left: 0;
+        width:100%;
+    }
+    table{
+        margin-top: 1em;
+        font-size: .55rem;
+    }
+}
+/* 411 */
+@media screen and (max-width: 411px){
+    .app__map{
+        margin: auto;
+        width: 10em;
+        order: 3;
+    }
+    .card__map{
+        margin-top: 1em;
+        margin-left: 3.8em;
+        border-radius: 10px;
+        background: #FAFAFB;
+        width: 17em;
+        height: 20em;
+        box-shadow: 0 10px 10px #00000086;
+        padding: 2em;
+    }
+    
+    svg{
+        margin-left: 0;
+        width:100%;
+    }
+    table{
+        margin-top: 1em;
+        font-size: .55rem;
+    }
+}
+/* 375 */
+@media screen and (max-width: 384px){
+ 
+    .card__map{
+        margin-top: 1em;
+        margin-left: 3.5em;
+        border-radius: 10px;
+        background: #FAFAFB;
+        width: 17em;
+    }
+
+}
+/* 375 */
+@media screen and (max-width: 375px){
+    .app__map{
+        
+        margin: auto;
+        width: 100vw;
+        order: 3;
+    }
+    .card__map{
+        margin-top: 1em;
+        margin-left: 6em;
+        border-radius: 10px;
+        background: #FAFAFB;
+        width: 14em;
+        height: 20em;
+        box-shadow: 0 10px 10px #00000086;
+        padding: 2em;
+    }
+    
+    svg{
+        margin-left: 0;
+        width:100%;
+    }
+    table{
+        margin-top: 1em;
+        font-size: .55rem;
+    }
+}
+
+/* 360 */
+@media screen and (max-width: 360px){
+    .app__map{
+        margin: auto;
+        width: 100vw;
+        order: 3;
+    }
+    .card__map{
+        margin-left: 5.3em;
+        border-radius: 10px;
+        background: #FAFAFB;
+        width: 14em;
+        height: 20em;
+        box-shadow: 0 10px 10px #00000086;
+        padding: 2em;
+    }
+    
+    svg{
+        margin-left: 0;
+        width:100%;
+    }
+    table{
+        margin-top: 1em;
+        font-size: .55rem;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .app__map{
+        margin: auto;
+        width: 100vw;
+        order: 3;
+        padding-top: 1em;
+    }
+    .card__map{
+        margin-left: 5em;
+        border-radius: 10px;
+        background: #FAFAFB;
+        width: 12em;
+        height: 16em;
+        box-shadow: 0 10px 10px #00000086;
+        padding: 2em;
+    }
+    
+    svg{
+        margin-left: 0;
+        width:100%;
+    }
+    table{
+        margin-top: 1em;
+        font-size: .55rem;
+    }
+}

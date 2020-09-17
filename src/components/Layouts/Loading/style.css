@@ -1,0 +1,23 @@
+.loading__screend{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading__container{
+    width: 24rem;
+    padding: 4em;
+}
+.loading__img{
+    width: 100%;
+    animation: infinite-spinning 4s linear infinite;
+}
+
+@keyframes infinite-spinning{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);    
+    }
+}

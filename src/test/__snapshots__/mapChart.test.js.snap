@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test for chart map component should show <Mapchart /> correctly 1`] = `
+<div
+  className="app__map"
+>
+  <div
+    className="card__map"
+  >
+    <h2
+      className="map__title"
+    >
+      World Map
+    </h2>
+    <div
+      className="map__table"
+    >
+      <Table />
+    </div>
+    <ComposableMap
+      projectionConfig={
+        Object {
+          "rotate": Array [
+            -10,
+            0,
+            0,
+          ],
+          "scale": 160,
+        }
+      }
+    >
+      <ZoomableGroup>
+        <Memo(Sphere)
+          stroke="#E4E5E6"
+          strokeWidth={0.5}
+        />
+        <Memo(Graticule)
+          stroke="#E4E5E6"
+          strokeWidth={0.5}
+        />
+      </ZoomableGroup>
+    </ComposableMap>
+  </div>
+</div>
+`;

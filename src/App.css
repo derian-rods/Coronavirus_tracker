@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: #E1E1E1;
+}
+.app__main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 8em;
+  padding-bottom: 2em;
+}
+.app__statics{
+  display: flex;
+  flex-direction: column;
+  width: 45vw;
+  flex-wrap: wrap;
+}
+
+/* @media screen and  (max-width: 1024px){
+  .app__main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 70vh;
+    align-content: center;
+    margin-left: 1em;
+  }
+  .app__statics{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    flex-wrap: wrap;
+  }
+} */
+@media screen and  (max-width: 1024px){
+  .app__main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 8em;
+  }
+  .app__statics{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-left: -3em;
+    flex-wrap: wrap;
+  }
+}
+
+
+@media screen and  (max-width: 768px){
+  .app__main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 8em;
+  }
+  .app__statics{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-left: -3em;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and  (max-width: 360px){
+  .app__main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 8em;
+  }
+  .app__statics{
+    display: flex;
+    flex-direction: column;
+    width: 45vw;
+    flex-wrap: wrap;
+  }
+}
+@media screen and  (max-width: 411px){
+  .app__main{
+    margin-left: 0;
+  }
+  .app__statics{
+    display: flex;
+    flex-direction: column;
+    width: 10em;
+    flex-wrap: wrap;
+  }
+}

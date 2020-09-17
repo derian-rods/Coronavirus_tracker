@@ -1,0 +1,117 @@
+.card{
+    border-top: 5px solid#ff9710;
+    margin: 1em 1em;
+    padding: 1.5em;
+    border-radius: 10px;
+    background: #FAFAFB;
+    width: 10rem;
+    box-shadow: 0 10px 10px #00000086;
+    display: flex;
+    justify-content: center;
+}
+
+.card__body{
+    text-align: center;
+}
+.card__title{
+    font-weight: bold;
+    padding: .2em;
+}
+.card__text{
+    padding-top:1em ;
+}
+.redcolor{
+    color:red;
+    margin: .5em;
+}
+.greencolor{
+    margin: .5em;
+
+    color:green;
+}
+
+
+@media screen and (max-width: 1024px){
+    .card{
+        border-top: 5px solid#ff9710;
+        margin: 1em 1em;
+        padding: 1.5em;
+        border-radius: 10px;
+        background: #FAFAFB;
+        width: 11rem;
+        box-shadow: 0 10px 10px #00000086;
+    }
+    .card__text{
+        padding-top:1em ;
+        margin-left: 1em;
+    }
+}
+
+/* 768 */
+@media screen and (max-width: 768px){
+    .card{
+        border-top: 5px solid#ff9710;
+        margin: 1em 1em;
+        padding: 1.5em;
+        border-radius: 10px;
+        background: #FAFAFB;
+        width: 20rem;
+        box-shadow: 0 10px 10px #00000086;
+    }
+    .card__text{
+        padding-top:1em ;
+        margin-left: 1em;
+    }
+}
+@media screen and (max-width: 414px){
+    .card{
+        margin-left: -5em;
+        width: 18rem;
+    }
+    .card__text{
+        padding-top:1em ;
+        margin-left: 1em;
+    }
+}
+
+/* media 411px */
+@media screen and (max-width: 411px){
+    .card{
+        margin-left: 2.2em;
+        width: 18rem;
+    }
+    .card__text{
+        padding-top:1em ;
+        margin-left: 1em;
+    }
+}
+@media screen and (max-width: 375px){
+    .card{
+        margin-left: 3em;
+        width: 15rem;
+    }
+    .card__text{
+        padding-top:1em ;
+        margin-left: 1em;
+    }
+}
+@media screen and (max-width: 360px){
+    .card{
+        margin-left: 2.2em;
+        width: 15rem;
+    }
+    .card__text{
+        padding-top:1em ;
+        margin-left: 1em;
+    }
+}
+@media screen and (max-width: 320px){
+    .card{
+        margin-left: 2em;
+        width: 13em;
+    }
+    .card__text{
+        padding-top:1em ;
+        margin-left: 1em;
+    }
+}

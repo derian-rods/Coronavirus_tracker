@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test for LoadingScreen component should show <LoadingScreen /> correctly  1`] = `
+<div
+  className="loading__screend"
+>
+  <div
+    className="loading__container"
+  >
+    <img
+      alt="corona virus tracker"
+      className="loading__img"
+      src="virus.svg"
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests of list component should show <List /> correctly  1`] = `
+<Fragment>
+  <div
+    className="app__list"
+  >
+    <div
+      className="list"
+    >
+      <h3
+        className="list__title"
+      >
+        Cases By Country
+      </h3>
+      <ul
+        className="list__ul"
+      >
+        <li
+          className="list__li"
+          key="Spain"
+        >
+          <div>
+            <img
+              alt="Spain"
+              className="list__flag"
+              src="https://disease.sh/assets/img/flags/af.png"
+            />
+            <span>
+              Spain
+            </span>
+          </div>
+          <span>
+            <i
+              className="fas fa-virus list__cases"
+            />
+          </span>
+        </li>
+        <li
+          className="list__li"
+          key="EEUU"
+        >
+          <div>
+            <img
+              alt="EEUU"
+              className="list__flag"
+              src="https://disease.sh/assets/img/flags/af.png"
+            />
+            <span>
+              EEUU
+            </span>
+          </div>
+          <span>
+            <i
+              className="fas fa-virus list__cases"
+            />
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</Fragment>
+`;

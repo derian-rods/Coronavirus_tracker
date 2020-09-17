@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for component CardStates should show <CardStats /> correctly  1`] = `
+<div
+  className="app__cardsStats"
+>
+  <Card
+    color="redcolor"
+    icon="fas fa-viruses"
+    icon2="fas fa-angle-double-up"
+    title="Coronavirus cases"
+    total={232012141}
+  />
+  <Card
+    color="redcolor"
+    icon="fas fa-skull-crossbones"
+    icon2="fas fa-angle-double-up"
+    title="Deaths"
+  />
+  <Card
+    color="greencolor"
+    icon="fas fa-ambulance"
+    icon2="fas fa-angle-double-up"
+    title="Recovered"
+  />
+</div>
+`;

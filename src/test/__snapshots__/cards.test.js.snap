@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test for card component should show <Cards /> correctly  1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card__body"
+  >
+    <h4
+      className="card__title"
+    >
+      Card title
+    </h4>
+    <h3>
+      <span>
+        +
+         
+        <i />
+      </span>
+    </h3>
+    <span
+      className="card__text"
+    >
+      NaN
+       total 
+      <i />
+    </span>
+     
+    <br />
+  </div>
+</div>
+`;
